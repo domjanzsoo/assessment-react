@@ -1,0 +1,58 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:'Nevada',sans-serif;
+  line-height:1.4;
+  background:#041f3b;
+}
+
+a{
+  color:#fff;
+  text-decoration:none;
+  transition:0.3s ease;
+}
+
+a:hover{
+  color:#e61961;
+}
+
+li span:hover{
+  color:#e61961;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+::placeholder{
+  color:#ffffff;
+  text-align:center;
+}
+
+ul{
+  z-index:99999 !important;
+}
+
+.navigationCont{
+  position:absolute;
+  top:23px;
+  right:33px;
+  z-index:9999 !important;
+}
+
+.documentCont{
+  overflow:scroll !important;
+}
+
+
+.overflowScroll{
+  overflow-y:scroll !important;
+}
+
+
+
+
