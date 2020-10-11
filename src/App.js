@@ -186,6 +186,7 @@ userDelete=(user) =>{
 const appCont={
   width:'100%',
   margin:'0',
+  padding:'0',
   height:'100vh',
   backgroundImage:"linear-gradient(rgba(4, 31, 59,0.8),rgba(4, 31, 59,0.8)),url('https://images.unsplash.com/photo-1583744516579-9672cdf19420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')",
   backgroundSize:'cover',
